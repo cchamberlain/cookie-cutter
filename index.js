@@ -19,6 +19,7 @@ var exports = module.exports = function (doc) {
         var s = escape(key) + '=' + escape(value);
         if (opts.expires) s += '; expires=' + opts.expires;
         if (opts.path) s += '; path=' + escape(opts.path);
+        if (opts.secure) s += '; secure';
         doc.cookie = s;
         return s;
     };
