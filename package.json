@@ -1,5 +1,5 @@
 {
-    "name" : "cookie-cutter",
+    "name" : "cookie-cutter-secure",
     "description" : "Browserify-compatible module to get and set cookies in the browser",
     "version" : "0.1.1",
     "repository" : {
